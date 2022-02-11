@@ -16,7 +16,7 @@ nodemon index.js
 # Technologies That Used
 |Using Technologies|
 |------------------|
-|HTML              |
+|:ballot_box_with_check:HTML              |
 |Css               |
 |Javascript        |
 |Jquery            |

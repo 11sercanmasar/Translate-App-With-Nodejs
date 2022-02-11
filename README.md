@@ -14,12 +14,12 @@ nodemon index.js
 ```
 
 # Technologies That Used
-|Using Technologies|
+|:point_down: Using Technologies|
 |------------------|
 |:ballot_box_with_check:HTML              |
-|Css               |
-|Javascript        |
-|Jquery            |
-|Nodejs            |
+|:ballot_box_with_check:Css               |
+|:ballot_box_with_check:Javascript        |
+|:ballot_box_with_check:Jquery            |
+|:ballot_box_with_check:Nodejs            |
 
 

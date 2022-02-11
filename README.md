@@ -13,6 +13,7 @@ npm i nodemon
 nodemon index.js
 ```
 
+# Technologies That Used
 |Using Technologies|
 |------------------|
 |HTML              |

@@ -1,0 +1,93 @@
+body{
+    font-family: sans-serif;
+}
+
+body nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #1d1f2f ;
+   color: #fff ;
+   margin-bottom: 1rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 585px 50px 585px;
+    justify-content: center;
+    grid-template-rows: 50px 200px;
+}
+form textarea{
+    font-size: 1.5rem;
+}
+form button{
+    font-size: 1.5rem;
+}
+
+#action{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    
+}
+
+#firstLang{
+    grid-column: 1/2;
+}
+#secondLang{
+    grid-column: 3/4;
+}
+#searchButton{
+ grid-column: 2/3;
+ grid-row: 2/3;
+}
+.fa-search{
+    margin-left: -350px !important;
+}
+
+
+.langListModal{
+background-color: antiquewhite;
+width:75rem;
+height: 20rem;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+overflow-y: auto;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: max-content;
+list-style: none;
+
+}
+.langListModal li:hover{
+    opacity:0.5;
+    transform:scale(1.1);
+}
+
+
+.fa-exchange-alt{
+    pointer-events: none;
+}
+.fa-level-down-alt{
+    pointer-events: none;
+    transform:rotate(90deg)
+}
+
+.listPrevious{
+    position: relative;
+    list-style-type: square;
+    left: 20%;
+   
+}
+.header{
+    margin-left:25rem ;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    
+}
+
+#buttons{
+    margin-left:25rem;
+}
+
